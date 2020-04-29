@@ -15,4 +15,19 @@ namespace TestAppWithErrors
             return 1;
         }
     }
+
+    class Person
+    {
+        private int test;
+        
+        private void Test1 ()
+        {
+
+        }
+
+        public void Test2 ()
+        {
+
+        }
+    }
 }
