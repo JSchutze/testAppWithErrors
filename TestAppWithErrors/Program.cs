@@ -12,13 +12,15 @@ namespace TestAppWithErrors
 
         public async Task<int> Test ()
         {
-            return 1;
+            return ((1)+(2));
         }
     }
 
     class Person
     {
         private int test;
+
+        //private string comment;
         
         private void Test1 ()
         {
